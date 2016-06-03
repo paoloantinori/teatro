@@ -1,0 +1,43 @@
+/* rosso ca0808 */
+
+.rosso {
+  background-color: #ca0808;
+}
+
+.grigio {
+  background-color: #3b3b3a;
+}
+
+.testo-bianco {
+  color: white;
+}
+
+.testo-rosso {
+  color: #ca0808;
+}
+
+.margine-bianco{
+  border: 2px solid white;
+}
+
+h1,h2 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.font {
+  font-family: 'Libre Baskerville', serif;
+}
+
+.font-grasso {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+.large-arrow {
+  font-size: 3em;
+}
+
+#menu, #menu a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white !important;
+}
