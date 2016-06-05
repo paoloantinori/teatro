@@ -8,6 +8,22 @@
   <title>Teatro Instabile - Novara</title>
   <link rel="stylesheet" href="css/foundation.css">
   <link rel="stylesheet" href="css/app.css">
+
+  <!-- facebook -->
+  <meta property="og:description" content="Teatro Instabile - Novara"/>
+  <meta property="og:url" content="http://chiaracielo-paolo.rhcloud.com/"/>
+  <meta property="og:image" content="http://chiaracielo-paolo.rhcloud.com/img/foto.png"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Matrimonio di ChiaraCielo e Paolo"/>
+  <meta property="og:title" content="Matrimonio di ChiaraCielo e Paolo"/>
+
+  <!-- twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@paolo_antinori_" />
+  <meta name="twitter:title" content="Teatro Instabile - Novara" />
+  <meta name="twitter:description" content="Teatro Instabile - Novara" />
+  <meta name="twitter:image" content="http://chiaracielo-paolo.rhcloud.com/img/foto.png" />
+  <meta name="twitter:url" content="http://chiaracielo-paolo.rhcloud.com" />
 </head>
 
 <body>
@@ -34,8 +50,8 @@
       <div class="off-canvas-content" data-off-canvas-content>
 
         <!-- top bar -->
-        <div data-sticky-container>
-          <div class="title-bar hide-for-medium" data-sticky data-sticky-on="small">
+        <div id="top-bar" data-sticky-container>
+          <div class="title-bar hide-for-medium" data-sticky data-sticky-on="small" data-margin-top="1">
             <div class="title-bar-left">
               <button class="menu-icon" type="button" data-open="sideBar"></button>
             </div>
@@ -48,8 +64,8 @@
         </div>
         <div class="row show-for-large grigio testo-bianco">
           <ul id="menu" class="menu expanded" data-magellan data-bar-offset="-25">
+            <li class="text-center"><a href="#">News</a></li>
             <li class="text-center"><a href="#chi_siamo">Chi siamo</a></li>
-            <li class="text-center"><a href="#">Eventi</a></li>
             <li class="text-center"><a href="#spettacoli">Spettacoli</a></li>
             <li class="text-center"><a href="#contattaci">Contatti</a></li>
           </ul>
@@ -206,22 +222,39 @@
                 <li class="is-active orbit-slide">
                   <div class="row">
                     <div class="small-4 columns">
-                      <img data-toggle="animatedModal10" class="float-center margine-bianco" src="img/mobile/art1.png">
-                      <div class="reveal" id="animatedModal10" data-reveal data-close-on-click="true"
+                      <img data-toggle="animatedModal1" class="float-center margine-bianco" src="img/mobile/art1.png">
+                      <div id="animatedModal1" class="reveal" data-reveal data-close-on-click="true"
                            data-animation-in="fade-in" data-animation-out="fade-out">
                         <h1>Dettagli articolo.</h1>
                         <p class='lead'>Bau bau bau</p>
-                        <img data-toggle="animatedModal10" class="float-center margine-bianco" src="img/mobile/art1.png">
+                        <img class="float-center margine-bianco" src="img/mobile/art1.png">
                         <button class="close-button" data-close aria-label="Close reveal" type="button">
                           <span aria-hidden="true">&times;</span>
                         </button>
                       </div>
                     </div>
                     <div class="small-4 columns">
-                      <img class="float-center margine-bianco" src="img/mobile/art2.png">
+                      <img data-toggle="animatedModal2" class="float-center margine-bianco" src="img/mobile/art2.png">
+                      <div id="animatedModal2" class="reveal" data-reveal data-close-on-click="true"
+                           data-animation-in="fade-in" data-animation-out="fade-out">
+                        <h1>Dettagli articolo.</h1>
+                        <p class='lead'>Bau bau bau</p>
+                        <img class="float-center margine-bianco" src="img/mobile/art2.png">
+                        <button class="close-button" data-close aria-label="Close reveal" type="button">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
                     </div>
                     <div class="small-4 columns">
-                      <img class="float-center margine-bianco" src="http://placehold.it/94x93">
+                      <img data-toggle="animatedModal3" class="float-center margine-bianco" src="http://placehold.it/94x93">
+                      <div id="animatedModal3" class="reveal" data-reveal data-close-on-click="true"
+                           data-animation-in="fade-in" data-animation-out="fade-out">
+                        <h1>Dettagli articolo.</h1>
+                        <p class='lead'>Bau bau bau</p>
+                        <img class="float-center margine-bianco" src="img/mobile/art2.png">
+                        <button class="close-button" data-close aria-label="Close reveal" type="button">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                   </div>
                 </li>

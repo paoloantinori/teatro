@@ -54,7 +54,7 @@ h1,h2 {
 }
 
 .title-bar {
-  background-color: #ca0808;
+  background-color: rgba(202, 8, 8, 0.7);
 }
 
 /************ PADDING ****************/
@@ -100,4 +100,8 @@ h1,h2 {
 
 #contattaci {
   padding-top: 1em;
+}
+
+#top-bar {
+  height: 0 !important;
 }
