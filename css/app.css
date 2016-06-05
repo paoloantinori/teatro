@@ -68,6 +68,8 @@ h1,h2 {
 
 #chi_siamo {
   padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #carousel {
@@ -83,6 +85,8 @@ h1,h2 {
 #spettacoli {
   padding-top: 1em;
   padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 #spettacolo_past_img {
