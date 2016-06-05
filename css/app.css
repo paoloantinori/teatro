@@ -29,7 +29,8 @@ h1,h2 {
 }
 
 .font-grasso {
-  font-family: 'Luckiest Guy', cursive;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 900;
 }
 
 .large-arrow {
@@ -40,4 +41,59 @@ h1,h2 {
   font-weight: bold;
   text-transform: uppercase;
   color: white !important;
+}
+
+.off-canvas {
+  background-color: #3b3b3a;
+}
+
+.off-canvas a{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white !important;
+}
+
+.title-bar {
+  background-color: #ca0808;
+}
+
+/************ PADDING ****************/
+#newest {
+  padding-top: 1em;
+}
+
+#news {
+  padding-bottom: 1em;
+}
+
+#chi_siamo {
+  padding-top: 1em;
+}
+
+#carousel {
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+
+#chi_siamo_img {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#spettacoli {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#spettacolo_past_img {
+  padding-bottom: 1em;
+}
+
+#parlano-di-noi {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#contattaci {
+  padding-top: 1em;
 }
