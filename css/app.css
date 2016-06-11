@@ -1,4 +1,11 @@
 /* rosso ca0808 */
+body{
+  color: #3b3b3a;
+}
+
+h1{
+  font-size: 4em;
+}
 
 .rosso {
   background-color: #ca0808;
@@ -20,27 +27,23 @@
   border: 2px solid white;
 }
 
-h1,h2 {
-  font-family: 'Libre Baskerville', serif;
-}
-
 .font {
-  font-family: 'Libre Baskerville', serif;
-}
-
-.font-grasso {
-  font-family: 'Catamaran', sans-serif;
-  font-weight: 900;
+  font-family: 'EB Garamond', serif;
 }
 
 .large-arrow {
   font-size: 3em;
 }
 
-#menu, #menu a {
-  font-weight: bold;
+#menu a {
   text-transform: uppercase;
   color: white !important;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+#menu a:hover {
+  font-weight: bold;
 }
 
 .off-canvas {
@@ -62,6 +65,18 @@ h1,h2 {
   padding-top: 1em;
 }
 
+.extra-bold {
+  font-weight: 800;
+}
+
+.extra-bold-padding {
+    padding-bottom: 1em;
+}
+
+.newest_size {
+  font-size: 2em;
+}
+
 #news {
   padding-bottom: 1em;
 }
@@ -75,10 +90,12 @@ h1,h2 {
 #carousel {
   padding-top: 2em;
   padding-bottom: 1em;
+  margin-top: 2em;
+  margin-bottom: 3em;
 }
 
 #chi_siamo_img {
-  padding-top: 1em;
+  padding-top: 0.5em;
   padding-bottom: 1em;
 }
 
@@ -89,8 +106,20 @@ h1,h2 {
   padding-right: 1em;
 }
 
-#spettacolo_past_img {
+.spettacolo_past_img {
   padding-bottom: 1em;
+}
+
+.titoletti {
+  font-size: 1em;
+}
+
+.testo-spettacoli {
+  font-size: 0.8em;
+}
+
+.date-spettacoli p {
+  margin-bottom: 0;
 }
 
 #parlano-di-noi {
